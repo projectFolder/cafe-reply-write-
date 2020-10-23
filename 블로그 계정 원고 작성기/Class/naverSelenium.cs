@@ -239,6 +239,8 @@ namespace aiswing_product.Class
 
                     if (cur >= total) break;
 
+                    DelayOp.Delay(DelayOp.GetRandomNumber(int.Parse(main.customTextbox6.val), int.Parse(main.customTextbox5.val)) * 1024);
+
                 }
                 catch (Exception ex)
                 {
@@ -246,8 +248,6 @@ namespace aiswing_product.Class
                 }
 
             } while (true);
-
-            DelayOp.Delay(DelayOp.GetRandomNumber(int.Parse(main.customTextbox6.val), int.Parse(main.customTextbox5.val)) * 1024);
 
         }
 
