@@ -228,7 +228,7 @@ namespace aiswing_product.Class
                         if (driver.PageSource.Contains("/CafeMemberInfo.nhn?clubid="))
                         {
                             cur += 1;
-                            main.display(AccountId + " 계정이 성공적으로 답글을 작성하였습니다. [" + cur + "/" + total + "]");
+                            main.display(AccountId + " 질문글 작성주소 :" + driver.Url.ToString() + " ["+  cur + " /" + total + "]");
                             _lst.Add(driver.Url.ToString());
                         }
                         else
