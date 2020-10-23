@@ -1,27 +1,15 @@
 ﻿using aiswing_product.Class;
-using aiswing_product.CustomControl;
 using aiswing_product.Forms;
 using ExtendedControls;
-using OpenQA.Selenium.Remote;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
-using WindowsFormsApp1;
 using WindowsFormsApp1.Class;
-using WindowsFormsApp1.CustomControl;
 using WindowsFormsApp2.Class;
 
 namespace aiswing_product
